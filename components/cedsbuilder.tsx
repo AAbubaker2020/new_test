@@ -66,7 +66,7 @@ export function CedsBuilder() {
       {/* Main Content */}
       <main className="flex-1 overflow-auto p-6">
         <ScrollArea className="h-full">
-          <h2 className="text-3xl font-bold mb-6">CEDS Content Knowledge Navigator</h2>
+          <h2 className="text-3xl font-bold mb-6">CEDS Knowledge Navigator</h2>
 
           {/* Component Progress */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">

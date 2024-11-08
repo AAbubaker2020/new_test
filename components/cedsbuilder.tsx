@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Textarea } from "@/components/ui/textarea";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Progress } from "@/components/ui/progress";
-import { AlertCircle, BarChart2, BookOpen, FileText, HelpCircle, Library, LineChart, MessageSquare, Search, Settings, Users } from "lucide-react";
+import { BookOpen, FileText, HelpCircle, Library, Search, Settings, Users } from "lucide-react"; // Removed unused icons
 
 export function CedsBuilder() {
   const [activeComponent, setActiveComponent] = useState("background");
@@ -112,13 +112,13 @@ export function CedsBuilder() {
                 <TabsContent value="preview">
                   <div className="prose max-w-none">
                     <h3>Preview of your content will appear here</h3>
-                    <p>As you edit your CEDS component, you'll be able to see a formatted preview in this tab.</p>
+                    <p>As you edit your CEDS component, you&apos;ll be able to see a formatted preview in this tab.</p>
                   </div>
                 </TabsContent>
                 <TabsContent value="guidelines">
                   <div className="prose max-w-none">
                     <h3>Guidelines for {components.find(c => c.id === activeComponent)?.name}</h3>
-                    <p>Here you'll find detailed explanations, best practices, and examples for creating this CEDS component.</p>
+                    <p>Here you&apos;ll find detailed explanations, best practices, and examples for creating this CEDS component.</p>
                     <ul>
                       <li>Include relevant regional data</li>
                       <li>Address key economic factors</li>

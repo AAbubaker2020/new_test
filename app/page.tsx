@@ -1,4 +1,4 @@
-import { CedsBuilder } from "@/components/ceds-builder"
+import { CedsBuilder } from "@/components/cedsbuilder"
 
 export default function Page() {
   return <CedsBuilder />

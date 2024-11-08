@@ -16,11 +16,11 @@ export function CedsBuilder() {
   const [activeComponent, setActiveComponent] = useState("background");
 
   const components = [
-    { id: "background", name: "Background Summary", progress: 0 },
-    { id: "swot", name: "SWOT Analysis", progress: 30 },
-    { id: "strategic", name: "Strategic Direction", progress: 0 },
-    { id: "action", name: "Action Plan", progress: 0 },
-    { id: "evaluation", name: "Evaluation Framework", progress: 0 },
+    { id: "background", name: "Background Summary", progress: 50 },
+    { id: "swot", name: "SWOT Analysis", progress: 40 },
+    { id: "strategic", name: "Strategic Direction", progress: 30 },
+    { id: "action", name: "Action Plan", progress: 20 },
+    { id: "evaluation", name: "Evaluation Framework", progress: 10},
     { id: "resilience", name: "Economic Resilience", progress: 0 },
   ];
 
@@ -28,7 +28,7 @@ export function CedsBuilder() {
     <div className="flex flex-col md:flex-row h-screen bg-background">
       {/* Sidebar */}
       <aside className="w-full md:w-64 border-r bg-muted/40 p-6">
-        <h1 className="text-2xl font-bold mb-6">CEDS Content Knowledge Navigator</h1>
+        <h1 className="text-2xl font-bold mb-6">CEDS Knowledge Navigator</h1>
         <nav className="space-y-2">
           <Button variant="ghost" className="w-full justify-start">
             <FileText className="mr-2 h-4 w-4" />
